@@ -1,3 +1,3 @@
 # Search bar demo
 
-![Demo](https://github.com/carbseater/search-bar/assets/59422042/70d80f92-6a7d-4959-bc3b-3a25892688bd)
+![Demo](https://github.com/carbseater/search-bar/assets/59422042/fbd19b32-f193-4f73-ab1e-ae7575d9c147)

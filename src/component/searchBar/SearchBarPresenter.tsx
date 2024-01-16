@@ -1,6 +1,7 @@
 import React, { RefObject, ChangeEvent, KeyboardEvent, LegacyRef, forwardRef } from 'react';
 import Chip from '../chip/Chip'
 import { User } from '../../data/users';
+import { Avatar } from '../avatar/Avatar';
 
 
 
@@ -52,6 +53,9 @@ const SearchBarPresenter = forwardRef((
                 <div className="search__results">
                     {filteredList.map((user) => (
                         <div key={user.id} onClick={() => addNewUser(user)} className="user">
+                            <div className="avatar_container">
+                                <Avatar letter={user.name[0].toUpperCase()} />
+                            </div>
                             {user.name}, {user.email}
                         </div>
                     ))}

@@ -6,13 +6,15 @@
 }
 
 .user {
+    display: flex;
     height: 2rem;
     padding: 1rem;
+    align-items: center;
 }
 
 .user:hover {
     cursor: pointer;
-    background-color: gainsboro;
+    background-color: rgb(241, 236, 236);
 }
 
 
@@ -28,9 +30,9 @@
 }
 
 .search__results {
-    box-shadow: 10px 10px 5px lightblue;
-    background-color: aliceblue;
-    height: 60vh;
+    box-shadow: 10px 10px 5px rgb(240, 219, 248);
+    background-color: rgb(236, 196, 238);
+    max-height: 60vh;
     overflow-y: scroll;
 }
 
@@ -39,4 +41,8 @@ input {
     border: none;
     outline: none;
 
+}
+
+.avatar_container {
+    margin: 10px;
 }
