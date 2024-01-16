@@ -30,6 +30,8 @@
 .search__results {
     box-shadow: 10px 10px 5px lightblue;
     background-color: aliceblue;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 
