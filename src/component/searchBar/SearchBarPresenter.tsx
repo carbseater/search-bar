@@ -1,4 +1,4 @@
-import React, { RefObject, ChangeEvent, KeyboardEvent, LegacyRef, forwardRef } from 'react';
+import React, { ChangeEvent, KeyboardEvent, forwardRef } from 'react';
 import Chip from '../chip/Chip'
 import { User } from '../../data/users';
 import { Avatar } from '../avatar/Avatar';

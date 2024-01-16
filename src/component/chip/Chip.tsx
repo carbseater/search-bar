@@ -1,7 +1,6 @@
 import React from 'react';
 import './Chip.css'
 import { User } from '../../data/users';
-import userIcon from '../../assets/user.png';
 import { Avatar } from '../avatar/Avatar';
 
 interface ChipProps {
@@ -14,11 +13,6 @@ interface ChipProps {
 const Chip: React.FC<ChipProps> = ({ user, removeUser, disabled, highlighted }) => {
   return (
     <div className={`selected__chip ${highlighted && 'chip__highlighted'}`}>
-      {/* <div className="avatar">
-        <img src={userIcon} id="user__icon" />
-      </div> */}
-
-
       <Avatar letter={user.name[0].toUpperCase()} />
       <span id="username">
         {user.name}
