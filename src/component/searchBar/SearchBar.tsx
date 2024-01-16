@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState, KeyboardEvent, ChangeEvent
 import { User } from '../../data/users';
 import SearchBarPresenter from './SearchBarPresenter';
 import { useUserList } from '../../hook/useUserList';
+import './SearchBar.css'
 
 export default function SearchBar() {
   // Ref for the searchbar scroll container
