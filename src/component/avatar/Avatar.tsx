@@ -5,7 +5,7 @@ interface AvatarProps {
 }
 export const Avatar = ({ letter }: AvatarProps) => {
     return (
-        <div id="avatar__alphas">
+        <div id="avatar__alpha">
             {letter}
         </div>
     )
